@@ -1,7 +1,11 @@
-﻿[![Build status](https://ci.appveyor.com/api/projects/status/au9umdxcu7pnnacm?svg=true)](https://ci.appveyor.com/project/openxmlsdk/open-xml-powertools)
-
-Open-XML-PowerTools
+[ARCHIVED] Open-XML-PowerTools
 ===================
+This repository is no longer maintained by Microsoft. It has been archived and can still be forked and cloned for use and continued developement. 
+
+If you're looking for a fork of this project that is actively maintained, try the following: 
+
+[https://github.com/EricWhiteDev/Open-Xml-PowerTools](https://github.com/EricWhiteDev/Open-Xml-PowerTools)
+
 The Open XML PowerTools provides guidance and example code for programming with Open XML
 Documents (DOCX, XLSX, and PPTX).  It is based on, and extends the functionality
 of the [Open XML SDK](https://github.com/OfficeDev/Open-XML-SDK).
@@ -22,9 +26,8 @@ It supports scenarios such as:
 - Extracting data (along with formatting) from spreadsheets.
 
 Copyright (c) Microsoft Corporation 2012-2017
-Portions Copyright (c) Eric White 2016-2017
-Licensed under the Microsoft Public License.
-See License.txt in the project root for license information.
+Licensed under the MIT License.
+See License in the project root for license information.
 
 News
 ====

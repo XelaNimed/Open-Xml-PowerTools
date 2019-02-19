@@ -1,20 +1,5 @@
-﻿/***************************************************************************
-
-Copyright (c) Microsoft Corporation 2012-2015.
-
-This code is licensed using the Microsoft Public License (Ms-PL).  The text of the license can be found here:
-
-http://www.microsoft.com/resources/sharedsource/licensingbasics/publiclicense.mspx
-
-Published at http://OpenXmlDeveloper.org
-Resource Center and Documentation: http://openxmldeveloper.org/wiki/w/wiki/powertools-for-open-xml.aspx
-
-Developer: Eric White
-Blog: http://www.ericwhite.com
-Twitter: @EricWhiteDev
-Email: eric@ericwhite.com
-
-***************************************************************************/
+﻿// Copyright (c) Microsoft. All rights reserved.
+// Licensed under the MIT license. See LICENSE file in the project root for full license information.
 
 #define COPY_FILES_FOR_DEBUGGING
 
@@ -37,6 +22,10 @@ namespace OxPt
 {
     public class CaTests
     {
+        /*
+         * This test was removed because it depends on the Coalesce method, which is only ever used
+         * by this test.
+         *
         [Theory]
         [InlineData("CA/CA001-Plain.docx", 60)]
         [InlineData("CA/CA002-Bookmark.docx", 7)]
@@ -57,7 +46,7 @@ namespace OxPt
         //[InlineData("", 0)]
         //[InlineData("", 0)]
         //[InlineData("", 0)]
-        
+
         public void CA001_ContentAtoms(string name, int contentAtomCount)
         {
             FileInfo sourceDocx = new FileInfo(Path.Combine(TestUtil.SourceDir.FullName, name));
@@ -96,6 +85,7 @@ namespace OxPt
                 Assert.Equal(contentAtomCount, contentAtomList.Count());
             }
         }
+        */
 
         [Theory]
         [InlineData("HC009-Test-04.docx")]
